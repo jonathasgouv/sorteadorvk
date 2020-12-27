@@ -31,12 +31,13 @@ async function sort() {
 	data = await fetch(url);
   	data = await data.json();
 	
+
+	members = data.uids.slice(1, numberofmembers);
+	
 	if(numberofmemberstobesorted > members.lenght) {
 		numberofmemberstobesorted = lenght;
 	}
 
-
-	members = data.uids.slice(1, numberofmembers);
 	winners = getRandom(members, numberofmemberstobesorted);
 
 	generateHTML(winners);
