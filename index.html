@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador - Cartola FC</title>
+</head>
+<body>
+    <h1>Sorteador - Cartola FC</h1>
+    <h2 id="tobesort">Sortear entre os primeiros: 50 membros</h2>
+    <div class="slidecontainer">
+        <input class="center" type="range" min="5" max="100" value="50" class="slider" id="myRange" onchange="nofmembers(this)">
+      </div>
+    <h2 id="tobesort2">Sortear: 5 membros</h2>
+    <div class="slidecontainer">
+        <input class="center" type="range" min="1" max="100" value="5" class="slider" id="myRange2" onchange="nofmembers2(this)">
+    </div>
+    <div class="sorteiolik center">
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon3">Endereço do tópico</span>
+        </div>
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <button type="button" class="btn btn-dark" onclick="sort()">Sortear</button>
+        
+    </div>
+    
+    <div class="winners center" id="winners">           
+    </div>
+      
+</body>
+<script src="index.js"></script>
+</html>
