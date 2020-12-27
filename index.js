@@ -29,7 +29,11 @@ async function sort() {
 	url = `https://api.sorteadorvk.repl.co/getMembers?tid=${topic}`;
 
 	data = await fetch(url);
-  data = await data.json();
+  	data = await data.json();
+	
+	if(numberofmemberstobesorted > members.lenght) {
+		numberofmemberstobesorted = lenght;
+	}
 
 
 	members = data.uids.slice(1, numberofmembers);
