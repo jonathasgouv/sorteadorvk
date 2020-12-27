@@ -35,7 +35,7 @@ async function sort() {
 	members = data.uids.slice(1, numberofmembers);
 	
 	if(numberofmemberstobesorted > members.lenght) {
-		numberofmemberstobesorted = lenght;
+		numberofmemberstobesorted = members.lenght;
 	}
 
 	winners = getRandom(members, numberofmemberstobesorted);
