@@ -1,7 +1,7 @@
 # VK User Drawer
 **Version 1.0.0**
 
-Front-end of a website that draws winners among the members who posted on a given topic in the Cartola FC community. [Check out the project in operation] (https://jonathasgouv.github.io/refractionsimulator)
+Front-end of a website that draws winners among the members who posted on a given topic in the Cartola FC community. [Check out the project in operation](https://jonathasgouv.github.io/refractionsimulator)
 
 ![Draw example](draw.gif)
 
