@@ -4,11 +4,11 @@
 Front-end of a website that draws winners among the members who posted on a given topic in the Cartola FC community. [Check out the project in operation] (https://jonathasgouv.github.io/refractionsimulator)
 
 ## Table of Contents
-* [Getting Started](getting-started)
-* [Installing](installing)
-* [Built With](built-with)
-* [Author](author)
-* [License](license)
+* [Getting Started](#getting-started)
+* [Installing](#installing)
+* [Built With](#built-with)
+* [Author](#author)
+* [License](#license)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Note that this is only the front-end of the project, in order to it work properly you will need to get the [back-end API](https://github.com/jonathasgouv/vkuserdrawerAPI) running first.
