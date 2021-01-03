@@ -12,7 +12,9 @@ function getRandom(arr, n) {
 	var result = new Array(n),
 		len = arr.length,
 		taken = new Array(len);
-	if (n > len) throw new RangeError('getRandom: more elements taken than available');
+	if (n > len) {
+		n = len;
+	}
 	while (n--) {
 		var x = Math.floor(Math.random() * len);
 		result[n] = arr[x in taken ? taken[x] : x];
@@ -33,11 +35,6 @@ async function sort() {
 	
 
 	members = data.uids.slice(1, numberofmembers);
-	
-	if(numberofmemberstobesorted > members.lenght) {
-		numberofmemberstobesorted = members.lenght - 1;
-	}
-
 	winners = getRandom(members, numberofmemberstobesorted);
 
 	generateHTML(winners);
