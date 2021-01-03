@@ -30,7 +30,7 @@ async function sort() {
 	numberofmembers = document.getElementById('myRange').value;
 	numberofmemberstobesorted = document.getElementById('myRange2').value;
 	topic = document.getElementById('basic-url').value.split('_')[1].split('?')[0];
-	url = `{apiurl}/getMembers?tid=${topic}`;
+	url = `${apiurl}/getMembers?tid=${topic}`;
 
 	data = await fetch(url);
   	data = await data.json();
@@ -48,7 +48,7 @@ async function generateHTML(winners) {
 
 	for (winner of winners) {
 		count++;
-		url = `{apiurl}/getMember?uid=${winner}`;
+		url = `${apiurl}/getMember?uid=${winner}`;
 		data = await fetch(url);
     data =  await data.json();
 		name = data.response[0].first_name + ' ' + data.response[0].last_name;
