@@ -35,4 +35,4 @@ apiurl = 'PUT YOUR API BASE URL HERE';
 * [Jônathas Gouveia](https://github.com/jonathasgouv/)
 
 ## License
-This project is licensed under the  GPL-3.0 License - see the [LICENSE](https://github.com/jonathasgouv/refractionsimulator/blob/master/LICENSE) file for details
+This project is licensed under the  GPL-3.0 License - see the [LICENSE](https://github.com/jonathasgouv/vkuserdrawer/blob/main/LICENSE) file for details
