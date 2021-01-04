@@ -30,6 +30,7 @@ apiurl = 'PUT YOUR API BASE URL HERE';
 * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/)
+* [API](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
 
 ## Author
 * [Jônathas Gouveia](https://github.com/jonathasgouv/)
